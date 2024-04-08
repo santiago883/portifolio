@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    text-decoration: none;
+}
+header{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    text-decoration: none;
+}
+
+header ul{
+    display: flex;
+    
+}
+
+header li{
+    margin: 20px;
+    list-style: none;
+    
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+}
+
+header a:hover{
+    color: rgb(106, 32, 143);
+}
+
+.introduct{
+    display: flex;
+    background-image: url(../img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.introduct_childs{
+    width: 50vw;
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.child2{
+    flex-direction: column;
+}
+
+.child2 h2{
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.child2 p{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.child1{
+    
+    padding: 30px;
+    
+}
+
+.child1 div{
+    display: flex;
+    background-color: darkslategray;
+    overflow: hidden;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    animation: float 6s ease-in-out infinite;
+}
+
+.tecnologias{
+    padding: 20px;
+    display: block;
+}
+
+.child1 div img{
+    overflow: hidden;
+}
+
+@keyframes float {
+    0%, 100%{
+        transform: scale(90%);
+    }
+    50%{
+        transform: scale(110%);
+    }
+    
+}
+
+
+
+.container{
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.container > div{
+    flex: 1 1 200px;
+    max-width: 30%;
+    margin: 10px  auto;
+    padding: 10px;
+
+    
+}
+
+.tec{
+    height: 300px;
+    padding: 10px;
+    border: 1px solid black;
+    border: 1px solid black;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    text-align: center;
+}
+.tec img {
+    overflow: hidden;
+    width: 150px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.tec h2{
+    margin: 10px;
+}
+.tecJs img{
+    border-radius: 20px;
+}
+
+.projetos{
+    display: block;
+    padding: 0px 20px 20px 20px;
+}
+
+
+
+.projet{
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: flex;
+    align-items: initial;
+    flex-direction: column;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: baseline;
+}
+
+.projet img{
+    border: 1px solid black;
+    border-radius: 20px;
+    display: block;
+}
+
+footer{
+    height: 300px;
+    background-color: black;
+}
+
+.footerP1{
+    display: flex;
+    padding: 20px;
+}
+
+.foo1{
+    width: 40%;
+}
+
+.foo2{
+    width: 30%;
+}
+
+.foo2 h2{
+    color: white;
+}
+
+.foo3{
+    width: 30%;
+}
+
+.foo3 h2{
+    color: white;
+}
+
+.rede{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+   
+}
+
+.rede img{
+    overflow: hidden;
+    width: 30px; 
+    
+    
+}
+
+.rede p{
+    margin-left: 10px;
+    color: white;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.contato{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.contato img{
+    overflow: hidden;
+    width: 30px; 
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.contato p{
+    margin-left: 10px;
+    color: white;
+
+}
